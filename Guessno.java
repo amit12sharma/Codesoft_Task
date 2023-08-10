@@ -8,7 +8,6 @@ class random_no{
       
     int upperbound = 101;
     int_random = rand.nextInt(upperbound); 
-    System.out.println(int_random);
   }
 
   public void get(){
@@ -38,7 +37,7 @@ class random_no{
   System.out.println("You have Taken"+" "+count+" "+ "attempts");
  }
 }
-class task{
+class Guessno{
     public static void main(String args[]){
       System.out.println("Number Game");
       System.out.println("Instruction :");
